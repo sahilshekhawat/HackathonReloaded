@@ -283,15 +283,7 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 40px;
-    line-height: 22px;
-}
-
-
-header .intro-text .intro-lead-in2 {
-    margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
-    
+    font-weight: bold;
     line-height: 22px;
 }
 
@@ -314,16 +306,7 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
-        /*font-style: italic;*/
-        line-height: 40px;
-    }
-
-    header .intro-text .intro-lead-in2 {
-        margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 26px;
         font-weight: bold;
-        /*font-style: italic;*/
         line-height: 40px;
     }
 
