@@ -9,10 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+
+
     <title>That's-the-Real-shiz</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/style.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/sb-admin.css" rel="stylesheet">
@@ -33,6 +36,9 @@
 </head>
 
 <body>
+    <script src="/static/js/d3.v2.js"></script>
+    <script src="/static/js/cubism.v1.js"></script>
+    <script src="/static/js/highlight.min.js"></script>
 
     <div id="wrapper">
 
@@ -97,8 +103,6 @@
                     </div>
                 </div>
                 <!-- /.row -->
-
-                
                 
                 <div class="row">
                     <div class="col-lg-12">
@@ -107,13 +111,17 @@
                                 <h3 class="panel-title"><i class="fa fa-bar-chart-o fa-fw"></i> Area Chart</h3>
                             </div>
                             <div class="panel-body">
-                                <div id="morris-area-chart"></div>
+                                <div id="sysinfo"></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- /.row -->
-
+        <style>
+        .canvas {
+            width: 100px;
+        }
+        </style>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="panel panel-default">
@@ -196,6 +204,7 @@
     <script src="js/plugins/morris/raphael.min.js"></script>
     <script src="js/plugins/morris/morris.min.js"></script>
     <script src="js/plugins/morris/morris-data.js"></script>
+    <script src="/static/js/index.js"></script>
 
 </body>
 
