@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from models import ProcessInfo
+from django.http import HttpResponse
 from django_ajax.decorators import ajax
 import subprocess
 import os
@@ -40,7 +41,8 @@ def get_cpu_info(request):
     top = subprocess.check_output("top -bn1", shell=True)
     top = top.split('\n')
     #cpu = subprocess.check_output("top -bn1 | grep 'Cpu'", shell=True)
-    cpu = top[2][9:16]
+    cpu = top[2][9:13]
+    print cpu
     return HttpResponse(cpu, content_type='application/text')
 
 
