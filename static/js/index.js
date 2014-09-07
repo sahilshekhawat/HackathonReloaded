@@ -26,6 +26,9 @@ var ram = random("RAM"),
     processes = random("PROCESSES"),
     load = random("LOAD");
 
+
+console.log(ram);
+
 d3.select("#sysinfo").call(function(div) {
   div.append("div")
       .attr("class", "axis")

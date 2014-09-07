@@ -12,4 +12,8 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', home),
+    url(r'^cpu', get_cpu_info),
+    url(r'^ram', get_mem_info),
+    url(r'^tasks', get_tasks_info),
+    url(r'^swap', get_swap_info),
 )

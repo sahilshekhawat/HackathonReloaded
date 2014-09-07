@@ -35,14 +35,14 @@
 }
 
 .horizon {
-  border-bottom: solid 1px #000;
+  border-bottom: solid 1px #abc;
   overflow: hidden;
   position: relative;
 }
 
 .horizon {
-  border-top: solid 1px #000;
-  border-bottom: solid 1px #000;
+  border-top: solid 1px #abc;
+  border-bottom: solid 1px #abc;
 }
 
 .horizon + .horizon {
