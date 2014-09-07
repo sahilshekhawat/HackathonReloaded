@@ -6,10 +6,10 @@ import os
 opening_for_first_time = True
 
 def home(request):
-    info = find_process_info()
-    b = ProcessInfo(process_info=info)
-    b.save()
-    return render(request, 'index.html', {"process_info": info})
+    #info = find_process_info()
+    #b = ProcessInfo(process_info=info)
+    #b.save()
+    return render(request, 'index.html', {})
 
 
 def find_process_info():
